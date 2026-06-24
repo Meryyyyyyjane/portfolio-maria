@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>María Abella — Fashion Retail · Product · Strategy</title>
+  <meta name="description" content="Portfolio de María Abella — Fashion Retail Specialist con experiencia en producto, visual merchandising, influencer marketing y gestión de tienda." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Pinyon+Script&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="lang-es">
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="María Abella">
+      <span class="nav__monogram">MA</span>
+      <span class="nav__name" data-i18n="nav.name">María Abella</span>
+    </a>
+    <nav class="nav__links">
+      <a href="#about" data-i18n="nav.about">Sobre mí</a>
+      <a href="#numbers" data-i18n="nav.numbers">Números</a>
+      <a href="#experience" data-i18n="nav.experience">Trayectoria</a>
+      <a href="#expertise" data-i18n="nav.expertise">Expertise</a>
+      <a href="#contact" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="nav__lang" role="group" aria-label="Language switch">
+      <button class="lang-btn is-active" data-lang="es" aria-pressed="true">ES</button>
+      <span class="lang-sep">/</span>
+      <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow" data-i18n="hero.eyebrow">Fashion Retail · Barcelona</p>
+        <h1 class="hero__title">
+          <span class="display">María</span>
+          <span class="script">Abella</span>
+        </h1>
+        <p class="hero__tagline" data-i18n="hero.tagline">Store Manager · Product &amp; Retail Strategy</p>
+        <p class="hero__sub" data-i18n="hero.sub">Construyo experiencias de tienda donde el producto, el dato y la creatividad se encuentran.</p>
+        <div class="hero__cta">
+          <a href="#experience" class="btn btn--solid" data-i18n="hero.ctaPrimary">Ver mi trayectoria</a>
+          <a href="assets/cv/CV-Maria-Abella.pdf" class="btn btn--ghost" download data-i18n="hero.ctaSecondary">Descargar CV</a>
+        </div>
+      </div>
+      <div class="hero__image" aria-hidden="true">
+        <!-- Reemplaza el src por tu foto editorial. Vertical, en tonos cálidos / burgundy. -->
+        <div class="img-placeholder img-placeholder--portrait">
+          <span data-i18n="placeholder.portrait">Tu foto editorial aquí</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="about__media">
+        <div class="img-placeholder img-placeholder--square">
+          <span data-i18n="placeholder.about">Imagen de marca / lifestyle</span>
+        </div>
+        <p class="about__caption" data-i18n="about.caption">— una visión integral del retail, del producto al punto de venta.</p>
+      </div>
+      <div class="about__text">
+        <p class="eyebrow" data-i18n="about.eyebrow">Sobre mí</p>
+        <h2 class="section__title">
+          <span data-i18n="about.title1">Elegante,</span>
+          <span class="script-inline" data-i18n="about.title2">atrevida</span>
+          <span data-i18n="about.title3">y orientada a resultados.</span>
+        </h2>
+        <p class="lead" data-i18n="about.lead">Profesional de Fashion Retail con más de tres años en primera línea, hoy Store Manager en Scalpers (ECI Diagonal). Gestiono tres departamentos y un equipo de cinco personas en uno de los corners de mayor tráfico de la marca en Cataluña.</p>
+        <p data-i18n="about.body1">Mi formación en EAE Business School, IED Barcelona e IDEM me da una visión integral del negocio: producto, supply chain, demand planning, visual merchandising y comunicación de marca. Disfruto del salto del punto de venta al análisis y la conceptualización en HQ.</p>
+        <p data-i18n="about.body2">Mezclo creatividad y análisis en una proporción que me define: <strong>60% creatividad, 40% análisis</strong>. Me apasiona crear conceptos de tienda, trabajar en equipo y que el trabajo hable por sí solo.</p>
+        <div class="about__pillars">
+          <div class="pillar">
+            <p class="pillar__num">3+</p>
+            <p class="pillar__label" data-i18n="about.pillar1">años en fashion retail</p>
+          </div>
+          <div class="pillar">
+            <p class="pillar__num">5</p>
+            <p class="pillar__label" data-i18n="about.pillar2">personas a cargo</p>
+          </div>
+          <div class="pillar">
+            <p class="pillar__num">3</p>
+            <p class="pillar__label" data-i18n="about.pillar3">departamentos simultáneos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="section numbers" id="numbers">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--light" data-i18n="numbers.eyebrow">Resultados que importan</p>
+        <h2 class="section__title section__title--light">
+          <span data-i18n="numbers.title1">Números</span>
+          <span class="script-inline script-inline--light" data-i18n="numbers.title2">que cuentan</span>
+          <span data-i18n="numbers.title3">una historia.</span>
+        </h2>
+      </div>
+
+      <div class="numbers__grid">
+        <article class="card card--dark card--chart">
+          <p class="card__label" data-i18n="numbers.donutLabel">Mi mix profesional</p>
+          <h3 class="card__title" data-i18n="numbers.donutTitle">Creatividad &amp; Análisis</h3>
+          <div class="chart-wrap">
+            <canvas id="mixChart" aria-label="Donut chart 60% creatividad 40% análisis"></canvas>
+          </div>
+          <p class="card__caption" data-i18n="numbers.donutCaption">La intuición creativa apoyada en datos.</p>
+        </article>
+
+        <article class="card card--dark card--chart">
+          <p class="card__label" data-i18n="numbers.kpiLabel">Scalpers · KPIs personales</p>
+          <h3 class="card__title" data-i18n="numbers.kpiTitle">Rendimiento en tienda</h3>
+          <div class="chart-wrap chart-wrap--bar">
+            <canvas id="kpiChart" aria-label="Bar chart KPIs Scalpers"></canvas>
+          </div>
+          <p class="card__caption" data-i18n="numbers.kpiCaption">Conversión, ticket medio y récord semanal por encima del estándar retail.</p>
+        </article>
+
+        <article class="card card--cream card--metric">
+          <p class="metric__big">+50%</p>
+          <p class="metric__label" data-i18n="numbers.metric1">facturación semanal en tienda TTGG tras rediseño de visual merchandising y rotación de producto.</p>
+        </article>
+
+        <article class="card card--cream card--metric">
+          <p class="metric__big">~20K€</p>
+          <p class="metric__label" data-i18n="numbers.metric2">récord de ventas semanales junto a un equipo de 6 personas en Scalpers Diagonal.</p>
+        </article>
+
+        <article class="card card--cream card--metric">
+          <p class="metric__big">10</p>
+          <p class="metric__label" data-i18n="numbers.metric3">perfiles de creadoras de contenido gestionados, con audiencias de 82K hasta 1,2M.</p>
+        </article>
+
+        <article class="card card--dark card--chart card--wide">
+          <p class="card__label" data-i18n="numbers.influencerLabel">Influencer Marketing · Audiencias gestionadas</p>
+          <h3 class="card__title" data-i18n="numbers.influencerTitle">Alcance de mi cartera</h3>
+          <div class="chart-wrap chart-wrap--bar">
+            <canvas id="influencerChart" aria-label="Bar chart followers gestionados"></canvas>
+          </div>
+          <p class="card__caption" data-i18n="numbers.influencerCaption">10 perfiles en moda, belleza y lifestyle. Top: @aliciarev (1,2M TikTok · 34,9M views/mes).</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section experience" id="experience">
+      <div class="section__head">
+        <p class="eyebrow" data-i18n="experience.eyebrow">Trayectoria</p>
+        <h2 class="section__title">
+          <span data-i18n="experience.title1">De la tienda</span>
+          <span class="script-inline" data-i18n="experience.title2">al headquarters.</span>
+        </h2>
+      </div>
+
+      <ol class="timeline">
+
+        <li class="role">
+          <div class="role__date">
+            <span data-i18n="exp.r1.date">Mayo 2026 — Presente</span>
+          </div>
+          <div class="role__body">
+            <p class="role__company">Scalpers · ECI Diagonal</p>
+            <h3 class="role__title" data-i18n="exp.r1.title">Store Manager</h3>
+            <p class="role__location">Barcelona</p>
+            <ul class="role__bullets">
+              <li data-i18n="exp.r1.b1">Gestión simultánea de tres líneas de producto (mujer, hombre, tallas grandes) y un equipo de 5 personas, con reporte a la partner regional de Cataluña.</li>
+              <li data-i18n="exp.r1.b2">Adaptación de la estrategia comercial y de producto a objetivos de venta independientes por departamento, en uno de los corners de mayor tráfico de la marca.</li>
+              <li data-i18n="exp.r1.b3">Supervisión de visual merchandising, reposición y seguimiento de KPIs (ventas, ticket medio, conversión) por departamento.</li>
+            </ul>
+            <div class="role__image">
+              <div class="img-placeholder img-placeholder--wide">
+                <span data-i18n="placeholder.scalpersStore">Foto del corner / tienda</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role__date">
+            <span data-i18n="exp.r2.date">Feb 2023 — Presente</span>
+          </div>
+          <div class="role__body">
+            <p class="role__company">Scalpers · Diagonal / L’illa / ECI Diagonal</p>
+            <h3 class="role__title" data-i18n="exp.r2.title">Retail &amp; Consumer Experience Specialist</h3>
+            <p class="role__location">Barcelona</p>
+            <ul class="role__bullets">
+              <li data-i18n="exp.r2.b1">Reasignada a tienda TTGG con bajo rendimiento: tras rediseño de visual merchandising y rotación de producto, +50% de facturación semanal.</li>
+              <li data-i18n="exp.r2.b2">Tasa de conversión personal ~38% con ticket medio ~85€, por encima del estándar de retail de moda.</li>
+              <li data-i18n="exp.r2.b3">Análisis semanal de datos en Excel, ~22 cambios de colección/año y formación de 3-5 nuevas incorporaciones.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role__date">
+            <span data-i18n="exp.r3.date">Jun 2022 — Ene 2023</span>
+          </div>
+          <div class="role__body">
+            <p class="role__company">Influencer Marketing — Freelance (Remoto)</p>
+            <h3 class="role__title" data-i18n="exp.r3.title">Influencer Marketing Assistant</h3>
+            <p class="role__location" data-i18n="exp.r3.loc">Remoto</p>
+            <ul class="role__bullets">
+              <li data-i18n="exp.r3.b1">Gestión de 10 creadoras en moda, belleza y lifestyle. Audiencias entre 82K y 1,2M, incluyendo @aliciarev (1,2M TikTok, 34,9M views/mes).</li>
+              <li data-i18n="exp.r3.b2">Coordinación de briefings, plazos y estándares de contenido en Instagram y TikTok.</li>
+              <li data-i18n="exp.r3.b3">Análisis de métricas y reportes de rendimiento por campaña para apoyar decisiones estratégicas de cliente.</li>
+            </ul>
+            <div class="role__image">
+              <div class="img-placeholder img-placeholder--wide">
+                <span data-i18n="placeholder.influencer">Mockup de campaña / Instagram</span>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role__date">
+            <span data-i18n="exp.r4.date">Jun 2022 — Ene 2023</span>
+          </div>
+          <div class="role__body">
+            <p class="role__company">Nícoli · C/ Amigó</p>
+            <h3 class="role__title" data-i18n="exp.r4.title">Retail &amp; Consumer Experience Specialist</h3>
+            <p class="role__location">Barcelona</p>
+            <ul class="role__bullets">
+              <li data-i18n="exp.r4.b1">Atención personalizada al cliente orientada a la fidelización y la frecuencia de compra, con registro en CRM.</li>
+              <li data-i18n="exp.r4.b2">Visual merchandising quincenal en tienda de pequeño formato, adaptando el espacio a la demanda y a los estándares de marca.</li>
+              <li data-i18n="exp.r4.b3">Gestión de stock e inventario y cumplimiento de objetivos mensuales de facturación.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role__date">
+            <span data-i18n="exp.r5.date">Mar 2022 — Jun 2022</span>
+          </div>
+          <div class="role__body">
+            <p class="role__company">Fina García · Besós</p>
+            <h3 class="role__title" data-i18n="exp.r5.title">Marketing Intern</h3>
+            <p class="role__location">Barcelona</p>
+            <ul class="role__bullets">
+              <li data-i18n="exp.r5.b1">Estrategias de marketing y comunicación de marca, interna y externa, en inglés y español.</li>
+              <li data-i18n="exp.r5.b2">Diseño del Libro de Bienvenida integrado en todas las tiendas de España, estandarizando procesos y atención al cliente.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role__date">
+            <span data-i18n="exp.r6.date">Jun 2021 — Sep 2021</span>
+          </div>
+          <div class="role__body">
+            <p class="role__company">The Real García · Sabadell</p>
+            <h3 class="role__title" data-i18n="exp.r6.title">Marketing Intern</h3>
+            <p class="role__location">Barcelona</p>
+            <ul class="role__bullets">
+              <li data-i18n="exp.r6.b1">Gestión autónoma de Instagram y LinkedIn: planificación de contenido, copywriting y línea editorial.</li>
+              <li data-i18n="exp.r6.b2">Campañas de paid media en Google Ads y administración de base de datos de clientes.</li>
+              <li data-i18n="exp.r6.b3">Apoyo a la estrategia comercial que llevó a la colección a entrar en Furest.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="section expertise" id="expertise">
+      <div class="section__head">
+        <p class="eyebrow" data-i18n="expertise.eyebrow">Expertise</p>
+        <h2 class="section__title">
+          <span data-i18n="expertise.title1">Lo que sé</span>
+          <span class="script-inline" data-i18n="expertise.title2">hacer.</span>
+        </h2>
+      </div>
+
+      <div class="expertise__grid">
+        <article class="skill">
+          <h3 class="skill__title" data-i18n="exp.s1.title">Producto &amp; punto de venta</h3>
+          <ul>
+            <li data-i18n="exp.s1.l1">Análisis de rotación y rendimiento de surtido</li>
+            <li data-i18n="exp.s1.l2">Identificación de best-sellers y baja salida</li>
+            <li data-i18n="exp.s1.l3">Visual merchandising y estándares de HQ</li>
+            <li data-i18n="exp.s1.l4">Supply chain, desarrollo de producto y demand planning</li>
+          </ul>
+        </article>
+
+        <article class="skill">
+          <h3 class="skill__title" data-i18n="exp.s2.title">Análisis &amp; datos</h3>
+          <ul>
+            <li data-i18n="exp.s2.l1">Excel aplicado a análisis comercial y reporting</li>
+            <li data-i18n="exp.s2.l2">KPIs retail: ventas, ticket medio, conversión</li>
+            <li data-i18n="exp.s2.l3">Lectura de ventas, stock y comportamiento de cliente</li>
+            <li data-i18n="exp.s2.l4">Mentalidad analítica orientada a resultados</li>
+          </ul>
+        </article>
+
+        <article class="skill">
+          <h3 class="skill__title" data-i18n="exp.s3.title">Cliente &amp; ventas</h3>
+          <ul>
+            <li data-i18n="exp.s3.l1">Clienteling avanzado</li>
+            <li data-i18n="exp.s3.l2">Upselling y cross-selling estratégico</li>
+            <li data-i18n="exp.s3.l3">Fidelización de clientes recurrentes</li>
+            <li data-i18n="exp.s3.l4">CRM (Oct8one, Kubbo)</li>
+          </ul>
+        </article>
+
+        <article class="skill">
+          <h3 class="skill__title" data-i18n="exp.s4.title">Equipo &amp; coordinación</h3>
+          <ul>
+            <li data-i18n="exp.s4.l1">Gestión simultánea de 3 departamentos con KPIs independientes</li>
+            <li data-i18n="exp.s4.l2">Liderazgo de turno y formación de incorporaciones</li>
+            <li data-i18n="exp.s4.l3">Reporting a partner regional y ejecución de guidelines</li>
+            <li data-i18n="exp.s4.l4">Coordinación de plantillas y cobertura</li>
+          </ul>
+        </article>
+
+        <article class="skill">
+          <h3 class="skill__title" data-i18n="exp.s5.title">Marketing &amp; comunicación</h3>
+          <ul>
+            <li data-i18n="exp.s5.l1">Branding y visual merchandising on/offline</li>
+            <li data-i18n="exp.s5.l2">Influencer marketing y campañas en RRSS</li>
+            <li data-i18n="exp.s5.l3">Paid media (Google Ads) y copywriting editorial</li>
+            <li data-i18n="exp.s5.l4">Moodboards, dossiers y dirección creativa</li>
+          </ul>
+        </article>
+
+        <article class="skill">
+          <h3 class="skill__title" data-i18n="exp.s6.title">Herramientas &amp; IA</h3>
+          <ul>
+            <li data-i18n="exp.s6.l1">Office (Excel, Word, PowerPoint)</li>
+            <li data-i18n="exp.s6.l2">Adobe Suite (Photoshop, InDesign)</li>
+            <li data-i18n="exp.s6.l3">IA: ChatGPT, Claude, Midjourney, Sora, Gamma</li>
+            <li data-i18n="exp.s6.l4">Idiomas: ES nativo · EN C1 · CA A2</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section education" id="education">
+      <div class="section__head">
+        <p class="eyebrow" data-i18n="education.eyebrow">Formación</p>
+        <h2 class="section__title">
+          <span data-i18n="education.title1">Una base</span>
+          <span class="script-inline" data-i18n="education.title2">de moda, retail</span>
+          <span data-i18n="education.title3">y mucho rigor.</span>
+        </h2>
+      </div>
+
+      <div class="education__list">
+        <div class="edu">
+          <p class="edu__date">2025 — <span data-i18n="education.current">actualidad</span></p>
+          <h3 class="edu__title">Máster en Fashion &amp; Retail Management</h3>
+          <p class="edu__school">EAE Business School · Barcelona</p>
+          <p class="edu__detail" data-i18n="edu.e1">Modelos de negocio retail, omnicanalidad, supply chain, demand planning, expansión internacional.</p>
+        </div>
+        <div class="edu">
+          <p class="edu__date">2019 — 2022</p>
+          <h3 class="edu__title" data-i18n="edu.e2title">Diplomada en Marketing y Comunicación de Moda</h3>
+          <p class="edu__school">IED Barcelona</p>
+          <p class="edu__detail" data-i18n="edu.e2">Consumer behavior, branding, posicionamiento y planes de marketing orientados a resultados.</p>
+        </div>
+        <div class="edu">
+          <p class="edu__date">2018 — 2019</p>
+          <h3 class="edu__title" data-i18n="edu.e3title">Máster en Estilismo y Dirección Artística</h3>
+          <p class="edu__school">IDEM · Madrid</p>
+          <p class="edu__detail" data-i18n="edu.e3">Dirección creativa, storytelling de moda, moodboards y dossiers.</p>
+        </div>
+        <div class="edu">
+          <p class="edu__date">2017 — 2018</p>
+          <h3 class="edu__title" data-i18n="edu.e4title">Escaparatismo, Visual Merchandising &amp; Personal Shopper</h3>
+          <p class="edu__school">IDEM · Madrid</p>
+          <p class="edu__detail" data-i18n="edu.e4">Visual merchandising estratégico, colorimetría y asesoría de imagen.</p>
+        </div>
+        <div class="edu edu--muted">
+          <p class="edu__date">2016 — 2017</p>
+          <h3 class="edu__title" data-i18n="edu.e5title">Medicina (1 año) — Universidad Europea de Madrid</h3>
+          <p class="edu__school" data-i18n="edu.e5school">Rigor, atención al detalle y trabajo en equipo multicultural.</p>
+          <p class="edu__detail edu__detail--italic" data-i18n="edu.e5">Dejé la carrera para dedicarme a lo que verdaderamente me apasiona: la moda.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="contact__inner">
+        <p class="eyebrow eyebrow--light" data-i18n="contact.eyebrow">Hablemos</p>
+        <h2 class="contact__title">
+          <span data-i18n="contact.title1">Construyamos algo</span>
+          <span class="script-inline script-inline--light" data-i18n="contact.title2">memorable.</span>
+        </h2>
+        <p class="contact__sub" data-i18n="contact.sub">Abierta a oportunidades en HQ de fashion retail, producto, visual merchandising y dirección de tienda.</p>
+
+        <div class="contact__grid">
+          <a class="contact__item" href="mailto:mariaabeper@gmail.com">
+            <span class="contact__label" data-i18n="contact.email">Email</span>
+            <span class="contact__value">mariaabeper@gmail.com</span>
+          </a>
+          <a class="contact__item" href="tel:+34659900720">
+            <span class="contact__label" data-i18n="contact.phone">Teléfono</span>
+            <span class="contact__value">+34 659 900 720</span>
+          </a>
+          <a class="contact__item" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value" data-i18n="contact.linkedin">/in/maria-abella</span>
+          </a>
+          <a class="contact__item" href="assets/cv/CV-Maria-Abella.pdf" download>
+            <span class="contact__label">CV</span>
+            <span class="contact__value" data-i18n="contact.download">Descargar PDF</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> María Abella · <span data-i18n="footer.made">Diseñado con cuidado en Barcelona</span></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
