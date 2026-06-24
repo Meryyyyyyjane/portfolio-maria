@@ -296,7 +296,6 @@ strong { font-weight: 600; color: var(--burgundy); }
   flex-wrap: wrap;
 }
 .hero__image {
-  aspect-ratio: 3 / 4;
   position: relative;
 }
 .hero__image::before {
@@ -305,6 +304,14 @@ strong { font-weight: 600; color: var(--burgundy); }
   inset: -22px -22px 22px 22px;
   border: 1px solid var(--burgundy);
   z-index: 0;
+  pointer-events: none;
+}
+.hero__image img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* ---------- Image placeholders ---------- */

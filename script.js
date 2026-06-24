@@ -19,8 +19,6 @@ const i18n = {
     "hero.ctaPrimary": "Ver mis proyectos",
     "hero.ctaSecondary": "Descargar CV",
 
-    "placeholder.portrait": "Tu foto editorial aquí",
-
     "about.eyebrow": "Sobre mí",
     "about.title1": "Comprometida,",
     "about.title2": "versátil",
@@ -130,8 +128,6 @@ const i18n = {
     "hero.sub": "Building store experiences where product, data and creativity meet.",
     "hero.ctaPrimary": "See my projects",
     "hero.ctaSecondary": "Download CV",
-
-    "placeholder.portrait": "Your editorial photo here",
 
     "about.eyebrow": "About me",
     "about.title1": "Committed,",
