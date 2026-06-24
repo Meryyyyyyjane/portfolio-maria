@@ -20,16 +20,18 @@ const i18n = {
     "hero.ctaSecondary": "Descargar CV",
 
     "placeholder.portrait": "Tu foto editorial aquí",
-    "placeholder.about": "Imagen de marca / lifestyle",
 
     "about.eyebrow": "Sobre mí",
     "about.title1": "Elegante,",
     "about.title2": "atrevida",
     "about.title3": "y orientada a resultados.",
     "about.caption": "— una visión integral del retail, del producto al punto de venta.",
-    "about.lead": "Profesional de Fashion Retail con más de tres años en primera línea, hoy Store Manager en Scalpers (ECI Diagonal). Gestiono tres departamentos y un equipo de cinco personas en uno de los corners de mayor tráfico de la marca en Cataluña.",
-    "about.body1": "Mi formación en EAE Business School, IED Barcelona e IDEM me da una visión integral del negocio: producto, supply chain, demand planning, visual merchandising y comunicación de marca. Disfruto del salto del punto de venta al análisis y la conceptualización en HQ.",
-    "about.body2": "Mezclo creatividad y análisis en una proporción que me define: <strong>60% creatividad, 40% análisis</strong>. Me apasiona crear conceptos de tienda, trabajar en equipo y que el trabajo hable por sí solo.",
+    "about.lead": "Profesional de Fashion Retail con más de tres años en primera línea de marcas nacionales e internacionales. Actualmente Store Manager en Scalpers (ECI Diagonal). Gestiono tres departamentos con KPI y productos independientes, y un equipo de cinco personas en uno de los corners de mayor tráfico de la marca en Cataluña.",
+    "about.body1": "Mi formación en EAE Business School, IED Barcelona e IDEM me da una visión integral del negocio: producto, supply chain, demand planning, visual merchandising y comunicación de marca.",
+    "about.body2": "Mi experiencia está en el punto de venta, pero mi objetivo es dar el salto hacia la <strong>conceptualización y estrategia en HQ</strong>. Disfruto del equilibrio entre creatividad y análisis, y lo que más valoro es poder llevar la estrategia de marca al terreno, traduciéndola en experiencias y resultados concretos en tienda.",
+    "about.word1": "Comprometida",
+    "about.word2": "Versátil",
+    "about.word3": "Proactiva",
     "about.pillar1": "años en fashion retail",
     "about.pillar2": "personas a cargo",
     "about.pillar3": "departamentos simultáneos",
@@ -38,15 +40,15 @@ const i18n = {
     "numbers.title1": "Números",
     "numbers.title2": "que cuentan",
     "numbers.title3": "una historia.",
-    "numbers.donutLabel": "Mi mix profesional",
-    "numbers.donutTitle": "Creatividad & Análisis",
-    "numbers.donutCaption": "La intuición creativa apoyada en datos.",
     "numbers.kpiLabel": "Scalpers · KPIs personales",
     "numbers.kpiTitle": "Rendimiento en tienda",
     "numbers.kpiCaption": "Conversión, ticket medio y récord semanal por encima del estándar retail.",
     "numbers.metric1": "facturación semanal en tienda TTGG tras rediseño de visual merchandising y rotación de producto.",
     "numbers.metric2": "récord de ventas semanales junto a un equipo de 6 personas en Scalpers Diagonal.",
     "numbers.metric3": "perfiles de creadoras de contenido gestionados, con audiencias de 82K hasta 1,2M.",
+    "numbers.influencerIntroLabel": "Paréntesis fuera del retail",
+    "numbers.influencerIntroTitle": "Influencer Marketing — un capítulo paralelo",
+    "numbers.influencerIntroBody": "Entre junio 2022 y enero 2023 trabajé en remoto como Influencer Marketing Assistant para una freelance, gestionando una cartera de 10 creadoras de contenido en moda, belleza y lifestyle. Los datos del gráfico que sigue corresponden a esa etapa: una experiencia que sumó visión 360º de marca a mi recorrido retail.",
     "numbers.influencerLabel": "Influencer Marketing · Audiencias gestionadas",
     "numbers.influencerTitle": "Alcance de mi cartera",
     "numbers.influencerCaption": "10 perfiles en moda, belleza y lifestyle. Top: @aliciarev (1,2M TikTok · 34,9M views/mes).",
@@ -135,16 +137,18 @@ const i18n = {
     "hero.ctaSecondary": "Download CV",
 
     "placeholder.portrait": "Your editorial photo here",
-    "placeholder.about": "Brand / lifestyle image",
 
     "about.eyebrow": "About me",
     "about.title1": "Elegant,",
     "about.title2": "daring",
     "about.title3": "and results-driven.",
     "about.caption": "— a full view of retail, from product to point of sale.",
-    "about.lead": "Fashion Retail professional with 3+ years in store, currently Store Manager at Scalpers (ECI Diagonal). I lead three departments and a team of five at one of the brand's busiest corners in Catalonia.",
-    "about.body1": "My background at EAE Business School, IED Barcelona and IDEM gives me an end-to-end view of the business: product, supply chain, demand planning, visual merchandising and brand communication. I enjoy moving from store floor to analysis and concept work at HQ.",
-    "about.body2": "I blend creativity and analytics in a ratio that defines me: <strong>60% creativity, 40% analysis</strong>. I love crafting store concepts, working as a team and letting the work speak for itself.",
+    "about.lead": "Fashion Retail professional with 3+ years on the front line of national and international brands. Currently Store Manager at Scalpers (ECI Diagonal). I lead three departments with independent KPIs and product lines, and a team of five at one of the brand's busiest corners in Catalonia.",
+    "about.body1": "My background at EAE Business School, IED Barcelona and IDEM gives me a 360° view of the business: product, supply chain, demand planning, visual merchandising and brand communication.",
+    "about.body2": "My experience is on the shop floor, but my goal is to move into <strong>concept work and strategy at HQ</strong>. I enjoy the balance between creativity and analysis, and what I value most is bringing brand strategy down to the floor — translating it into real experiences and tangible results in store.",
+    "about.word1": "Committed",
+    "about.word2": "Versatile",
+    "about.word3": "Proactive",
     "about.pillar1": "years in fashion retail",
     "about.pillar2": "people led",
     "about.pillar3": "departments managed",
@@ -153,15 +157,15 @@ const i18n = {
     "numbers.title1": "Numbers",
     "numbers.title2": "that tell",
     "numbers.title3": "a story.",
-    "numbers.donutLabel": "My professional mix",
-    "numbers.donutTitle": "Creativity & Analytics",
-    "numbers.donutCaption": "Creative intuition backed by data.",
     "numbers.kpiLabel": "Scalpers · personal KPIs",
     "numbers.kpiTitle": "Floor performance",
     "numbers.kpiCaption": "Conversion, average ticket and weekly record above retail standard.",
     "numbers.metric1": "weekly revenue at TTGG store after visual merchandising and product rotation redesign.",
     "numbers.metric2": "weekly sales record alongside a team of 6 at Scalpers Diagonal.",
     "numbers.metric3": "content creator profiles managed, with audiences from 82K up to 1.2M.",
+    "numbers.influencerIntroLabel": "An aside from retail",
+    "numbers.influencerIntroTitle": "Influencer Marketing — a parallel chapter",
+    "numbers.influencerIntroBody": "Between June 2022 and January 2023 I worked remotely as an Influencer Marketing Assistant for a freelancer, managing a portfolio of 10 content creators in fashion, beauty and lifestyle. The figures in the chart below correspond to that period: an experience that added a 360° brand view to my retail journey.",
     "numbers.influencerLabel": "Influencer Marketing · Managed audiences",
     "numbers.influencerTitle": "Portfolio reach",
     "numbers.influencerCaption": "10 profiles across fashion, beauty and lifestyle. Top: @aliciarev (1.2M TikTok · 34.9M monthly views).",
@@ -279,46 +283,6 @@ function applyLang(lang) {
 function destroyCharts() {
   Object.values(charts).forEach((c) => c && c.destroy());
   charts = {};
-}
-
-function buildMixChart() {
-  const el = document.getElementById("mixChart");
-  if (!el) return;
-  charts.mix = new Chart(el, {
-    type: "doughnut",
-    data: {
-      labels: [t("chart.creativity"), t("chart.analysis")],
-      datasets: [{
-        data: [60, 40],
-        backgroundColor: [theme.rose, theme.burgundy],
-        borderColor: theme.aubergine,
-        borderWidth: 4,
-        hoverOffset: 8
-      }]
-    },
-    options: {
-      cutout: "68%",
-      plugins: {
-        legend: {
-          position: "bottom",
-          labels: {
-            color: theme.cream,
-            font: { family: "Inter", size: 11, weight: "500" },
-            padding: 18,
-            boxWidth: 10,
-            boxHeight: 10
-          }
-        },
-        tooltip: {
-          callbacks: {
-            label: (ctx) => ` ${ctx.label}: ${ctx.parsed}%`
-          }
-        }
-      },
-      responsive: true,
-      maintainAspectRatio: false
-    }
-  });
 }
 
 function buildKpiChart() {
@@ -439,7 +403,6 @@ function rebuildCharts() {
   destroyCharts();
   // small delay so the lang toggle paints first
   requestAnimationFrame(() => {
-    buildMixChart();
     buildKpiChart();
     buildInfluencerChart();
   });
