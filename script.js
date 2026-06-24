@@ -56,6 +56,7 @@ const i18n = {
     "projects.title2": "de la uni.",
     "projects.lead": "Análisis, auditorías y dossiers estratégicos desarrollados durante el Máster en Fashion & Retail Management de EAE Business School (Barcelona–Rome).",
     "projects.roleLabel": "Mi rol:",
+    "projects.download": "Descargar dossier",
 
     "projects.p1.meta": "2025–2026 · Gestión del Punto de Venta · EAE",
     "projects.p1.title": "Mystery Shopping · Hermès",
@@ -170,6 +171,7 @@ const i18n = {
     "projects.title2": "from school.",
     "projects.lead": "Strategic analyses, audits and dossiers developed during the Master in Fashion & Retail Management at EAE Business School (Barcelona–Rome).",
     "projects.roleLabel": "My role:",
+    "projects.download": "Download dossier",
 
     "projects.p1.meta": "2025–2026 · Point of Sale Management · EAE",
     "projects.p1.title": "Mystery Shopping · Hermès",
