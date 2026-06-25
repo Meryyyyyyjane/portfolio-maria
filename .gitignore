@@ -6,3 +6,7 @@ node_modules/
 *.log
 .env
 .env.local
+
+# Loose screenshots accidentally dropped into the project root
+/Captura de pantalla*
+/Screenshot*
