@@ -379,6 +379,66 @@ strong { font-weight: 600; color: var(--burgundy); }
   font-size: 14px;
   text-align: center;
 }
+/* ---------- Manifesto ---------- */
+.manifesto {
+  background: var(--cream);
+  max-width: none;
+  margin: 0;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.manifesto__inner {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+.manifesto__title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 5.5vw, 76px);
+  line-height: 1;
+  margin: 0 0 48px;
+  font-weight: 400;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.manifesto__body {
+  position: relative;
+  text-align: left;
+  display: grid;
+  gap: 24px;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(18px, 1.55vw, 23px);
+  line-height: 1.55;
+  color: var(--ink-soft);
+  padding-top: 36px;
+}
+.manifesto__body::before {
+  content: "“";
+  position: absolute;
+  left: -10px;
+  top: -40px;
+  font-family: var(--font-display);
+  font-size: 140px;
+  line-height: 1;
+  color: var(--burgundy);
+  opacity: 0.28;
+  pointer-events: none;
+}
+.manifesto__body p { margin: 0; }
+.manifesto__body p strong { color: var(--burgundy); }
+.manifesto__signature {
+  margin-top: 48px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+  font-weight: 500;
+}
+
 /* ---------- Numbers (dark section) ---------- */
 .numbers {
   background: var(--burgundy);

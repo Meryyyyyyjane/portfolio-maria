@@ -8,6 +8,7 @@ const i18n = {
   es: {
     "nav.name": "María Abella",
     "nav.about": "Sobre mí",
+    "nav.manifesto": "Manifesto",
     "nav.numbers": "Números",
     "nav.projects": "Proyectos",
     "nav.education": "Formación",
@@ -27,6 +28,13 @@ const i18n = {
     "about.lead": "Profesional de Fashion Retail con más de tres años de experiencia en primera línea de marcas nacionales e internacionales. Actualmente Store Manager en Scalpers (ECI Diagonal). Gestiono tres departamentos con KPI y productos independientes, y un equipo de cinco personas en uno de los corners de mayor tráfico de la marca en Cataluña.",
     "about.body1": "Mi formación en EAE Business School, IED Barcelona e IDEM me da una visión integral del negocio: producto, supply chain, demand planning, visual merchandising y comunicación de marca.",
     "about.body2": "Mi experiencia está en el punto de venta, pero mi objetivo es dar el salto hacia la <strong>conceptualización y estrategia en HQ</strong>. Disfruto del equilibrio entre creatividad y análisis, y lo que más valoro es poder llevar la estrategia de marca al terreno, traduciéndola en experiencias y resultados concretos en tienda.",
+
+    "manifesto.eyebrow": "Manifesto",
+    "manifesto.title1": "Mi visión",
+    "manifesto.title2": "del retail.",
+    "manifesto.p1": "Cuando entro en una tienda no veo producto. Veo decisiones. La luz, la cadencia del personal, el orden de un escaparate, la distancia entre perchas: cada detalle es una declaración sobre quién quiere ser esa marca.",
+    "manifesto.p2": "Creo que el retail es el lugar donde la estrategia se vuelve verdad. La idea que se escribe en HQ solo existe de verdad cuando se siente en el corner. Mi trabajo —el que vengo haciendo en tienda y al que quiero dedicar mi recorrido en HQ— es construir ese puente: traducir la visión de marca en gestos concretos que el cliente pueda leer sin que nadie se los explique.",
+    "manifesto.p3": "No elijo entre creatividad y análisis. La conversión, el ticket medio y la rotación son la prueba honesta de si una idea respira. El moodboard, la atmósfera y el detalle son la única razón por la que merece la pena venderla. Aspiro a un retail que no necesite gritar — uno que cuente su historia con coherencia, con cuidado, y con la calma de quien sabe que el trabajo bien hecho habla por sí solo.",
 
     "numbers.eyebrow": "Resultados que importan",
     "numbers.title1": "Números",
@@ -118,6 +126,7 @@ const i18n = {
   en: {
     "nav.name": "María Abella",
     "nav.about": "About",
+    "nav.manifesto": "Manifesto",
     "nav.numbers": "Numbers",
     "nav.projects": "Projects",
     "nav.education": "Education",
@@ -137,6 +146,13 @@ const i18n = {
     "about.lead": "Fashion Retail professional with over three years of experience on the front line of national and international brands. Currently Store Manager at Scalpers (ECI Diagonal). I lead three departments with independent KPIs and product lines, and a team of five at one of the brand's busiest corners in Catalonia.",
     "about.body1": "My background at EAE Business School, IED Barcelona and IDEM gives me a 360° view of the business: product, supply chain, demand planning, visual merchandising and brand communication.",
     "about.body2": "My experience is on the shop floor, but my goal is to move into <strong>concept work and strategy at HQ</strong>. I enjoy the balance between creativity and analysis, and what I value most is bringing brand strategy down to the floor — translating it into real experiences and tangible results in store.",
+
+    "manifesto.eyebrow": "Manifesto",
+    "manifesto.title1": "My take",
+    "manifesto.title2": "on retail.",
+    "manifesto.p1": "When I walk into a store I don't see product. I see decisions. The light, the rhythm of the staff, the way a window is arranged, the distance between hangers — every detail is a statement about who the brand wants to be.",
+    "manifesto.p2": "I believe retail is where strategy becomes true. An idea written at HQ only really exists when it can be felt on the floor. My job — the one I've been doing in store and the one I want to take to HQ — is to build that bridge: to translate brand vision into concrete gestures the customer can read without anyone needing to explain them.",
+    "manifesto.p3": "I refuse to choose between creativity and analytics. Conversion, average ticket and stock rotation are the honest test of whether an idea is alive. The moodboard, the atmosphere and the detail are the only reasons it's worth selling at all. I aim for retail that doesn't need to shout — one that tells its story with coherence, care, and the calm of work that speaks for itself.",
 
     "numbers.eyebrow": "Results that matter",
     "numbers.title1": "Numbers",
