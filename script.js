@@ -91,7 +91,7 @@ const i18n = {
     "contact.title2": "memorable.",
     "contact.email": "Email",
     "contact.phone": "Teléfono",
-    "contact.linkedin": "/in/maria-abella",
+    "contact.linkedin": "/in/mariaabellaperez",
     "contact.download": "Descargar PDF",
 
     "footer.made": "Diseñado con cuidado en Barcelona",
@@ -192,7 +192,7 @@ const i18n = {
     "contact.title2": "memorable.",
     "contact.email": "Email",
     "contact.phone": "Phone",
-    "contact.linkedin": "/in/maria-abella",
+    "contact.linkedin": "/in/mariaabellaperez",
     "contact.download": "Download PDF",
 
     "footer.made": "Designed with care in Barcelona",
