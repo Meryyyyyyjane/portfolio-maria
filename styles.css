@@ -735,7 +735,7 @@ strong { font-weight: 600; color: var(--burgundy); }
 }
 .contact__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: var(--line-light);
   border-top: 1px solid var(--line-light);
